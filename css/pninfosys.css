@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background: #088cfb;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+nav .menu a {
+  /* go in nav , menu class , a tag*/
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: system-ui;
+  color: white;
+  margin: 0 4px;
+  box-sizing: border-box;
+  word-spacing: 1px;
+}
+
+.logo {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0 -12px;
+}
+.fa-brands {
+  font-weight: 400;
+  font-family: "Font Awesome 6 Brands";
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+/* .banner {
+  background-image: url(../image/p1030p1exz4ewdnwhrcn.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+} */
+
+.img{
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.news {
+  background: #088cfb;
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin-top: -4px;
+  padding-top: 3px;
+  text-shadow: 3px 3px 3px black;
+}
+
+.box{
+  border: 1px solid white ;
+  height: 150px;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.col-12{
+  text-align: center;
+  margin-top: 3rem;
+  padding-left: 90px;
+    padding-right: 30px;
+   
+        
+
+}
+
+.text-center{
+font-size: 1.25rem;
+font-style: italic;
+font-family: system-ui;
+margin-top: 0;
+margin-bottom: 1rem;
+text-align: center;
+}
+
+.about {
+  padding: 100px 300px;
+  /* background-color: #088efb57; */
+ background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+  text-align: center;
+  color: white;
+}
+
+.about h3 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: cursive;
+  letter-spacing: 3px;
+  margin-bottom: 13px;
+}
+
+.about p {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 26px;
+  font-family: cursive;
+  margin-bottom: 13px;
+}
+
+.about button {
+  padding: 13px 48px;
+  font-size: 16px;
+  background: #088cfb;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.press {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),url(../image/pexels-mirrographer-1679551.jpg);
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  padding: 170px 45px;
+  text-align: center;
+}
+
+.press h3 {
+  color: white;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: cursive;
+  letter-spacing: 3px;
+  margin-bottom: 13px;
+  
+}
+
+.press p {
+  color: white;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 26px;
+  font-family: cursive;
+  margin-bottom: 13px;
+  border: 0px solid;
+}
+
+.press button {
+  padding: 13px 48px;
+  font-size: 16px;
+  background: #088cfb;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #088cfb;
+  color: white;
+  font-family: system-ui;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.pnlogo {
+  border: 1px solid;
+  background-color: white;
+  margin-top: 1rem;
+  border-radius: 0.375rem;
+  width: 171px;
+}
+.text {
+  margin: 1rem 0;
+  border: 0;
+  border-top: 1px solid;
+  opacity: 0.25;
+  width: 97%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 176px;
+  margin-right: 106px;
+  margin-bottom: 20px;
+}
+
+.row h6 {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.fa-envelope:before {
+  content: "\f0e0";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  line-height: 1;
+}
+
+.row p {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+.footer h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}

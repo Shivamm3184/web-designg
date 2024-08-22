@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+nav .menu a {
+  /* go in nav , menu class , a tag*/
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 19px;
+  font-family: monospace;
+  color: #ff2b85;
+  margin: 0 10px;
+}
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url(../image/about-foodpanda-1920x539.jpeg);
+  /* background: url(../image/about-foodpanda-1920x539.jpeg); */
+  width: 100%;
+  height: 450px;
+  margin-top: 50px;
+  background-position: center;
+  background-size: cover;
+}
+.banner input {
+  width: 600px;
+  height: 38px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: medium;
+  font-size: 17px;
+  margin: 0 auto;
+  padding-left: 15px;
+  outline: none;
+  color: white;
+  border-radius: 7px;
+  position: relative;
+  top: 180px;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.562);
+}
+
+.banner h1 {
+  text-align: center;
+  font-size: 70px;
+  /* text-transform: uppercase; */
+  color: white;
+  position: relative;
+  top: 150px;
+  background-color: #ff2b834e;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin: auto;
+  width: 60%;
+}
+
+.news {
+  background: #ff2b85;
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  padding-top: 3px;
+  text-shadow: 3px 3px 3px black;
+}
+
+.about {
+  padding: 100px 300px;
+  text-align: center;
+  background: linear-gradient(rgba(156, 2, 61, 0.2), rgba(186, 1, 78, 0.8));
+  
+}
+
+.about h3 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: cursive;
+  letter-spacing: 3px;
+  margin-bottom: 13px;
+}
+
+.about p {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 26px;
+  font-family: cursive;
+  margin-bottom: 13px;
+}
+
+.about button {
+  padding: 13px 48px;
+  font-size: 16px;
+  background: #ff2b85;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.press {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url(../image/Rider-Safety-900x619.jpeg);
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 300px;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.press h3 {
+  color: white;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: cursive;
+  letter-spacing: 3px;
+  margin-bottom: 13px;
+}
+
+.press p {
+  color: white;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 26px;
+  font-family: cursive;
+  margin-bottom: 13px;
+}
+
+.press button {
+  padding: 13px 48px;
+  font-size: 16px;
+  background: #ff2b85;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.team {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(../image/team.png);
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 300px;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.team h3 {
+  color: white;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: cursive;
+  letter-spacing: 3px;
+  margin-bottom: 13px;
+}
+
+.team p {
+  color: white;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 26px;
+  font-family: cursive;
+  margin-bottom: 13px;
+}
+
+.team button {
+  padding: 13px 48px;
+  font-size: 16px;
+  background: #ff2b85;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact {
+  padding: 100px 300px;
+  background: linear-gradient(rgba(156, 2, 61, 0.2), rgba(186, 1, 78, 0.8));
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.contact h3 {
+  color: black;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: cursive;
+  letter-spacing: 3px;
+  margin-bottom: 13px;
+}
+
+.contact p {
+  color: black;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 26px;
+  font-family: cursive;
+  margin-bottom: 13px;
+}
+
+.contact button {
+  padding: 13px 48px;
+  font-size: 16px;
+  background: #ff2b85;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer {
+  background: black;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 80px 50px 18px 99px;
+}
+
+.footer-content{
+  background-color: black;
+  color: white;
+  font-family: system-ui;
+  
+}
+.items li{
+  list-style-type: none ;
+
+}
+.items a{
+  text-decoration: none;
+  color: white;
+}
+.footer-content .logo{
+  margin-bottom: 44px;
+}
+.footer-content .items{
+  display: flex;
+  gap: 10rem;
+margin-bottom: 85px;
+}
+
+.footer-content .copyright{
+display: flex;
+justify-content: space-between;
+}
+.items h4{
+margin-bottom: 10px;
+font-size: 1.2rem;
+}

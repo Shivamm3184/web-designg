@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+      }
+      body {
+        width: 100%;
+        background: black;
+      }
+      .logo {
+        margin-bottom: 30px;
+      }
+      footer {
+        padding: 80px 10% 100px;
+        background: #121212;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+
+      .footer-cont {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 2rem;
+      }
+
+      .footer-cont h4 {
+        color: #fff;
+        margin-bottom: 1.5rem;
+        font-size: 20px;
+        font-weight: 400;
+      }
+      .footer-cont li {
+        color: #fff;
+      }
+
+      .footer-cont li a {
+        color: #fff;
+      }
+      .copyright {
+        display: flex;
+        color: #fff;
+        /* margin-top: 30px; */
+        position: absolute;
+        bottom: 5px;
+      }
+
+      .copyright h4 {
+        font-size: 15px;
+        margin-right: 900px;
+      }
+
+      .copyright p {
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <footer>
+      <div class="logo">
+        <img src="image/foodpanda_logo_2023.svg" alt="" />
+      </div>
+      <div class="footer-cont">
+        <div>
+          <h4>Navigate</h4>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Newsroom</a></li>
+        </div>
+
+        <div>
+          <h4>Collaborate</h4>
+          <li><a href="">Explore careers</a></li>
+          <li><a href="">Become a rider</a></li>
+          <li><a href="">Try panda</a></li>
+          <li><a href="">feed your team</a></li>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div>Copyright © 2024 foodpanda</div>
+        <div>Privacy Policy</div>
+      </div>
+    </footer>
+  </body>
+</html>
